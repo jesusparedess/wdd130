@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+body {
+    background-color: #0d1821;
+    font-family: 'Poppins', 'Georgia', 'Verdana';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0d1821;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    height: 70px;
+  }
+  
+  
+  .logo {
+    flex: 1;
+    width: 200px;
+  }
+  
+  
+  .logo img {
+    height: 200px;
+    width: auto;
+  }
+  
+  
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+  
+  
+  nav a {
+    color: #fff8f0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  
+  
+  nav a:first-child {
+    margin-left: 0;
+  }
+
+nav a:hover {
+color: #f0a202;
+}
+
+/* Home grid styles */
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  
+  /* Hero message styles */
+  #hero-msg {
+    grid-column: 1 / span 2;
+    grid-row: 1/2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .home-title {
+    color: #344966;
+    font-size: 24px;
+    margin-top: 0;
+    text-align: left;
+  }
+  
+  
+  #hero-msg h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #fff8f0;
+    text-align: left;
+  }
+  
+  
+  .button-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .book {
+    background-color: #344966;
+    color: #f0a202;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.2s;
+  }
+  
+  
+  .book:hover {
+    background-color: #f0a202;
+    color: #344966;
+  }
+  
+  
+  /* A message styles */
+  .a-msg {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #fff8f0;
+  }
+  
+  
+  .a-msg p {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  
+  .a-msg h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f0a202;
+    
+  }
+  
+  
+  /* Bio pic styles */
+  .bio-pic {
+    grid-column: 3/4;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  
+  /* B message styles */
+  .b-msg {
+    grid-column: 2 / span 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .b-msg p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    color: #fff8f0;
+  }
+  footer .social img {
+    padding-top: 10px;
+}
+
+footer p {
+    font-size: auto;
+}
+footer a:hover {
+    color: #f0a202;
+}
+footer a {
+    color: #fff8f0;
+    text-decoration: none;
+}
+footer {
+    box-shadow: 5px 2px 0px rgba(0.1, 0, 0, 0);
+    color: #344966;
+    padding: 25px 50px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}  
